@@ -7,7 +7,11 @@ const routes = [
     component: () => import("./views/EmptyPage.vue"),
   },
   {
-    path: "/:idUtente",
+    path: "/",
+    component: () => import("./views/HomePage.vue"),
+  },
+  {
+    path: "/profile/:idUtente",
     component: () => import("./views/ProfilePage.vue"),
   },
 ];
