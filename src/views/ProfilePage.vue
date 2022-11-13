@@ -30,7 +30,7 @@ async function getUtente() {
         utente.value = res.data.data[0]
       }
       else {
-        router.push('/')
+        router.push('/404')
       }
 
     })
