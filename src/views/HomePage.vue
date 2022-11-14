@@ -1,5 +1,6 @@
 <template>
   <div>
-    <h1>Home Page</h1>
+    <h1>90 Days</h1>
+    Benvenuto!
   </div>
 </template>
